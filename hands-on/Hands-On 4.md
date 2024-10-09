@@ -9,8 +9,8 @@
 
 3. Define an authentication policy that requires Password and Email if the user is a user type of Intern and is trying to access the Engapp application. Name the policy `Intern Policy` and the rule `Intern Rule`. Enable the following settings in the Intern Rule:  
   
-And Prompt for password authentication: When an Okta global session doesn’t exist  
-And Prompt for all other factors: Every time user signs in to resource  
+    _And Prompt for password authentication: When an Okta global session doesn’t exist_  
+    _And Prompt for all other factors: Every time user signs in to resource_  
   
 4. If you can, use a personal email address to receive the Email verification code. Otherwise, if you are taking this exam on a device that is locked down, you may have to use a work email address. Edit Jeremy Steele’s Okta Profile and set his primary email to the email address that you are using for this step.
 
